@@ -1,0 +1,2 @@
+# Adafruit_MCP9808_Library
+Adafruit_MCP9808_Library for Raspberry Pi
