@@ -51,9 +51,6 @@ class Adafruit_MCP9808 : public Adafruit_Sensor {
 public:
   Adafruit_MCP9808(Adafruit_I2CDevice_Adapter &adapter);
   bool begin();
-//  bool begin(TwoWire *theWire);
-//  bool begin(uint8_t addr);
-//  bool begin(uint8_t addr, TwoWire *theWire);
 
   bool init();
   float readTempC();

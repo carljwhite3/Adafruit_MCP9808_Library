@@ -41,38 +41,6 @@ Adafruit_MCP9808::Adafruit_MCP9808(Adafruit_I2CDevice_Adapter &adapter)
 }
 
 /*!
- *    @brief  Setups the HW
- *    @param  *theWire
- *    @return True if initialization was successful, otherwise false.
- */
-//bool Adafruit_MCP9808::begin(TwoWire *theWire) {
-//  return begin(MCP9808_I2CADDR_DEFAULT, theWire);
-//}
-
-/*!
- *    @brief  Setups the HW
- *    @param  addr
- *    @return True if initialization was successful, otherwise false.
- */
-
-//bool Adafruit_MCP9808::begin(uint8_t addr) { return begin(addr, &Wire); }
-
-/*!
- *    @brief  Setups the HW
- *    @param  addr
- *    @param  *theWire
- *    @return True if initialization was successful, otherwise false.
- */
-//bool Adafruit_MCP9808::begin(uint8_t addr, TwoWire *theWire) {
-//  if (i2c_dev) {
-//    delete i2c_dev;
-//  }
-//  i2c_dev = new Adafruit_I2CDevice(addr, theWire);
-//
-//  return init();
-//}
-
-/*!
  *    @brief  Setups the HW with default address
  *    @return True if initialization was successful, otherwise false.
  */
